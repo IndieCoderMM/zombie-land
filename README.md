@@ -6,7 +6,7 @@
 ## Features
 
 - Menu System
-- Available many characters
+- Available different characters
 - Enemy AI with path-finding ability
 - Collectable Items
 - Level created with **Tiled**
