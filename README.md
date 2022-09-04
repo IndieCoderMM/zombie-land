@@ -13,4 +13,4 @@
 
 ## Demo Gameplay
 
-![Zombie Land Demo](https://github.com/IndieCoderMM/git-cloud/gifs/zshooter_demo.gif)
+![Zombie Land Demo](https://github.com/IndieCoderMM/git-cloud/blob/master/gifs/zshooter_demo.gif?raw=true)
