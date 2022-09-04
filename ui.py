@@ -152,7 +152,7 @@ class UI:
                                               self.MARGIN + self.home_btn.width + self.shop_btn.width, self.MARGIN,
                                               align_left=True, pad_x=50)
         # Coin
-        pg.draw.rect(self.game.screen, 'white', (WIDTH-180, self.MARGIN, 150, 50))
+        # pg.draw.rect(self.game.screen, 'white', (WIDTH-180, self.MARGIN, 150, 50))
         self.game.screen.blit(self.coin_img, (WIDTH - 180, self.MARGIN+5))
         self.write('1920', 'black', 35, WIDTH - 140, self.MARGIN+10, align_left=True)
         # Background
