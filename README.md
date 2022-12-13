@@ -23,7 +23,8 @@ In **Zombieland**, the world turns into Dead Zone and the survivors' lives are t
 
 ### 🎬 Gameplay
 
-![Gameplay](screenshots/demo-gameplay.gif)
+<img src="screenshots/demo-gameplay.gif" width="500">
+<!-- ![Gameplay](screenshots/demo-gameplay.gif) -->
 
 <!-- ### Developers
 
@@ -44,7 +45,6 @@ If you like this project, you can support me by giving a ⭐.
 ## 👨‍🚀 Contact
 
 Feel free to contact me if you're interested in this project. I'm also open to feedback and suggestions. 😉
-- GitHub: [@IndieCoderMM](https://github.com/indiecodermm/)
 - Email: hthant00chk@gmail.com
 - LinkedIn: [@hthantoo](https://linkedin.com/in/hthantoo/)
 
@@ -53,5 +53,5 @@ Feel free to contact me if you're interested in this project. I'm also open to f
 This game sources are licensed under an unmodified zlib/libpng license, which is an OSI-certified, BSD-like license that allows static linking with closed source software. Check [LICENSE](LICENSE.md) for further details.
 
 
-*Copyright (c) 2022 Hein Thant (@IndieCoderMM)*
+*Copyright (c) 2022 Hein Thant ([@IndieCoderMM](https://github.com/indiecodermm/))*
 
