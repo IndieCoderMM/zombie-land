@@ -1,6 +1,6 @@
 ## Zombieland - Top Down Shooter Game
 
-![Zombieland](screenshots/screenshot000.png "Zombieland")
+![Zombieland](screenshots/screenshot00.png "Zombieland")
 
 ### Description
 
