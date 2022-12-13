@@ -43,8 +43,10 @@ If you like this project, you can support me by giving a ⭐.
 
 ## 👨‍🚀 Contact
 
-Feel free to contact me if you're interested in this project. I'm also open to feedbacks and suggestions. 😉
-- GitHub: [@IndieCoderMM]
+Feel free to contact me if you're interested in this project. I'm also open to feedback and suggestions. 😉
+- GitHub: [@IndieCoderMM](https://github.com/indiecodermm/)
+- Email: hthant00chk@gmail.com
+- LinkedIn: [@hthantoo](https://linkedin.com/in/hthantoo/)
 
 ### 📜 License
 
