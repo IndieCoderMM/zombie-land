@@ -1,7 +1,7 @@
 import random
-from settings import MAP_COL, MAP_ROW, TILEWIDTH
-from utils import load_image, rotate_image
-from pathfinder import PathFinder
+from zombieland.settings import MAP_COL, MAP_ROW, TILEWIDTH
+from zombieland.utils import load_image, rotate_image
+from zombieland.pathfinder import PathFinder
 import pygame as pg
 import math
 
@@ -47,7 +47,7 @@ class ZombieHorde:
 class Zombie(pg.sprite.Sprite):
     def __init__(self, x, y, game, pathfinder):
         super().__init__()
-        self.IMG = load_image('assets/zombie.png', TILEWIDTH)
+        self.IMG = load_image('./resources/assets/zombie.png', TILEWIDTH)
         self.image = self.IMG
         self.rect = self.image.get_rect()
         self.rect.topleft = x * TILEWIDTH, y * TILEWIDTH

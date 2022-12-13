@@ -1,12 +1,12 @@
-from utils import *
-from settings import *
+from zombieland.utils import *
+from zombieland.settings import *
 
 class HealthKit(pg.sprite.Sprite):
     TIMER = 5000
 
     def __init__(self, x, y):
         super().__init__()
-        self.image = load_image('assets/health_kit.png', TILEWIDTH)
+        self.image = load_image('./resources/assets/health_kit.png', TILEWIDTH)
         self.rect = self.image.get_rect()
         self.rect.topleft = x, y
         self.spawn_clk = pg.time.get_ticks()

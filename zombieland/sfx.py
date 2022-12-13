@@ -1,7 +1,7 @@
 from pygame import mixer
 
 class SFX:
-    PATH = 'sfx/'
+    PATH = './resources/sfx/'
 
     def __init__(self):
         mixer.init()

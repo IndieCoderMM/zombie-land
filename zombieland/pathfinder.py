@@ -1,5 +1,5 @@
 from collections import deque
-from settings import MAP_COL, MAP_ROW
+from zombieland.settings import MAP_COL, MAP_ROW
 
 class Node:
     def __init__(self, x, y, walkable, neighbors):

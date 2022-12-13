@@ -1,4 +1,4 @@
-from level import Level
+from zombieland.level import Level
 
 class Map:
     def __init__(self, game):

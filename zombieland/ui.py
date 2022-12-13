@@ -1,6 +1,6 @@
 import pygame as pg
-from settings import WIDTH, HEIGHT, FONT_PATH, TILEWIDTH, CHAR_PATH, CHARACTERS
-from utils import load_image
+from zombieland.settings import WIDTH, HEIGHT, FONT_PATH, TILEWIDTH, CHAR_PATH, CHARACTERS, UI_ASSET_PATH
+from zombieland.utils import load_image
 
 Button = pg.Rect
 
@@ -22,28 +22,28 @@ class UI:
         # Set up
         self.selected_menu = 'home'
         # Images
-        self.title_frame = load_image('assets/ui/LargeFrame.png', WIDTH - 100, 150)
-        self.dark_frame = load_image('assets/ui/SmallFrame2.png', 500, 400)
-        self.green_frame = load_image('assets/ui/FrameGreen.png', WIDTH / 3 + 50, 300)
-        self.blue_frame = load_image('assets/ui/FrameBlue.png', WIDTH / 3 + 50, 300)
-        self.brown_frame = load_image('assets/ui/FrameBrown.png', WIDTH / 3, 250)
-        self.kill_medal = load_image('assets/ui/Medals/SoloKills.png', 100, 100)
-        self.heal_medal = load_image('assets/ui/Medals/MostHealing.png', 100, 100)
-        self.survive_medal = load_image('assets/ui/Medals/MostRevives.png', 100, 100)
-        self.coin_img = load_image('assets/ui/Icons/CoinIcon.png', 40)
-        self.btn_img = load_image('assets/ui/BtnNormal.png')
-        self.btn_hover_img = load_image('assets/ui/HoverBtn.png')
-        self.btn_b_green = load_image('assets/ui/rect_greenline.png')
-        self.tab_active_img = load_image('assets/ui/SelectedTab.png')
-        self.tab_img = load_image('assets/ui/UnselectedTab.png')
-        self.arrow_l_img = load_image('assets/ui/Arrow.png', 50)
+        self.title_frame = load_image(UI_ASSET_PATH + '/LargeFrame.png', WIDTH - 100, 150)
+        self.dark_frame = load_image(UI_ASSET_PATH + '/SmallFrame2.png', 500, 400)
+        self.green_frame = load_image(UI_ASSET_PATH + '/FrameGreen.png', WIDTH / 3 + 50, 300)
+        self.blue_frame = load_image(UI_ASSET_PATH + '/FrameBlue.png', WIDTH / 3 + 50, 300)
+        self.brown_frame = load_image(UI_ASSET_PATH + '/FrameBrown.png', WIDTH / 3, 250)
+        self.kill_medal = load_image(UI_ASSET_PATH + '/Medals/SoloKills.png', 100, 100)
+        self.heal_medal = load_image(UI_ASSET_PATH + '/Medals/MostHealing.png', 100, 100)
+        self.survive_medal = load_image(UI_ASSET_PATH + '/Medals/MostRevives.png', 100, 100)
+        self.coin_img = load_image(UI_ASSET_PATH + '/Icons/CoinIcon.png', 40)
+        self.btn_img = load_image(UI_ASSET_PATH + '/BtnNormal.png')
+        self.btn_hover_img = load_image(UI_ASSET_PATH + '/HoverBtn.png')
+        self.btn_b_green = load_image(UI_ASSET_PATH + '/rect_greenline.png')
+        self.tab_active_img = load_image(UI_ASSET_PATH + '/SelectedTab.png')
+        self.tab_img = load_image(UI_ASSET_PATH + '/UnselectedTab.png')
+        self.arrow_l_img = load_image(UI_ASSET_PATH + '/Arrow.png', 50)
         self.arrow_r_img = pg.transform.flip(self.arrow_l_img, flip_x=True, flip_y=False)
-        self.tog_on_img = load_image('assets/ui/toggleOn.png', 60, 30)
-        self.tog_off_img = load_image('assets/ui/toggleOff.png', 60, 30)
-        self.k_r = load_image('assets/ui/Keys/R.png', 40)
-        self.k_w = load_image('assets/ui/Keys/W.png', 40)
-        self.k_s = load_image('assets/ui/Keys/S.png', 40)
-        self.k_space = load_image('assets/ui/Keys/SPACEALTERNATIVE.png', 120, 30)
+        self.tog_on_img = load_image(UI_ASSET_PATH + '/toggleOn.png', 60, 30)
+        self.tog_off_img = load_image(UI_ASSET_PATH + '/toggleOff.png', 60, 30)
+        self.k_r = load_image(UI_ASSET_PATH + '/Keys/R.png', 40)
+        self.k_w = load_image(UI_ASSET_PATH + '/Keys/W.png', 40)
+        self.k_s = load_image(UI_ASSET_PATH + '/Keys/S.png', 40)
+        self.k_space = load_image(UI_ASSET_PATH + '/Keys/SPACEALTERNATIVE.png', 120, 30)
         self.pointer = pg.sprite.GroupSingle()
         self.pointer.add(Pointer())
 
@@ -275,7 +275,7 @@ class UI:
 class Pointer(pg.sprite.Sprite):
     def __init__(self):
         super().__init__()
-        self.crosshair_pointer = load_image('assets/crosshair.png', TILEWIDTH)
+        self.crosshair_pointer = load_image('./resources/assets/crosshair.png', TILEWIDTH)
         # self.hand_pointer = load_image('assets/hand.png', TILEWIDTH)
         self.image = self.crosshair_pointer
         self.rect = self.image.get_rect()

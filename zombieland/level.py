@@ -1,6 +1,6 @@
 import pygame
-from settings import TILEWIDTH
-from utils import *
+from zombieland.settings import TILEWIDTH
+from zombieland.utils import *
 
 class Level:
     def __init__(self, level_data):

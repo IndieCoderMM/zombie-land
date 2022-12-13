@@ -1,6 +1,5 @@
-
-from settings import *
-from utils import *
+from zombieland.settings import *
+from zombieland.utils import *
 import pygame as pg
 import math
 
@@ -115,7 +114,7 @@ class Player:
 class Bullet(pg.sprite.Sprite):
     def __init__(self, x, y, angle):
         super().__init__()
-        self.image = load_image('assets/bullet.png', 14)
+        self.image = load_image('./resources/assets/bullet.png', 14)
         self.image = pg.transform.rotate(self.image, -math.degrees(angle))
         self.origin = x * TILEWIDTH, y * TILEWIDTH
         self.rect = self.image.get_rect(topleft=self.origin)
