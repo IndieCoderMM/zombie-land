@@ -15,8 +15,8 @@ In **Zombieland**, the world turns into Dead Zone and the survivors' lives are t
 
 ### 🕹 Controls
 
- - Aim: *Mouse Pointer*
- - Forward: **W**
+ - Aim: *Mouse Pointer* 🖱
+ - Forward: **W** 
  - Backward: **S**
  - Shoot: **SPACE**
  - Reload: **R**
@@ -47,6 +47,11 @@ If you like this project, you can support me by giving a ⭐.
 Feel free to contact me if you're interested in this project. I'm also open to feedback and suggestions. 😉
 - Email: hthant00chk@gmail.com
 - LinkedIn: [@hthantoo](https://linkedin.com/in/hthantoo/)
+
+## 💎 Resources
+
+- Assets from [Top Down Shooter | Kenney](https://www.kenney.nl/assets/topdown-shooter)
+- Map created using [Tiled Map Editor](https://thorbjorn.itch.io/tiled)
 
 ### 📜 License
 
