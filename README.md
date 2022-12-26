@@ -38,7 +38,7 @@ In **Zombieland**, the world turns into Dead Zone and the survivors' lives are t
  - itch.io Release: $(itch.io Game Page)
  - Steam Release: $(Steam Game Page) -->
  
-### ✨ Starcatcher
+### 💖 Show your support
 
 If you like this project, you can support me by giving a ⭐.
 
@@ -50,13 +50,9 @@ Feel free to contact me if you're interested in this project. I'm also open to f
 
 ## 💎 Resources
 
-- Assets from [Top Down Shooter | Kenney](https://www.kenney.nl/assets/topdown-shooter)
-- Map created using [Tiled Map Editor](https://thorbjorn.itch.io/tiled)
+- UI elements: [FPS Game UI Pack](https://loudeyes.itch.io/battle-royale-fps-game-ui-asset-pack)
+- Sprites: [Top Down Shooter Assets](https://www.kenney.nl/assets/topdown-shooter)
 
 ### 📜 License
 
 This game sources are licensed under an unmodified zlib/libpng license, which is an OSI-certified, BSD-like license that allows static linking with closed source software. Check [LICENSE](LICENSE.md) for further details.
-
-
-*Copyright (c) 2022 Hein Thant ([@IndieCoderMM](https://github.com/indiecodermm/))*
-
